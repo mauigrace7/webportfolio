@@ -1,0 +1,21 @@
+/*CSS Reset*/
+
+* {
+	color: white;
+}
+.navbar {
+	background-color: rgba(38, 104, 121, 0.75);
+}
+
+#bg-img {
+	background: linear-gradient(
+      rgba(0, 0, 0, 0.5), 
+      rgba(0, 0, 0, 0.5)), 
+	  url("./images/bg.jpg");
+	 height: 200vh;
+	 background-repeat: repeat-y;
+}
+
+.card {
+	height: vh;
+}
