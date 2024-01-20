@@ -3,6 +3,15 @@
 * {
 	color: white;
 }
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	overflow-x: hidden;
+}
+
 .navbar {
 	background-color: rgba(38, 104, 121, 0.75);
 }
@@ -12,10 +21,11 @@
       rgba(0, 0, 0, 0.5), 
       rgba(0, 0, 0, 0.5)), 
 	  url("./images/bg.jpg");
-	 height: 200vh;
-	 background-repeat: repeat-y;
+	 height: 100vh;
+	 background-repeat: inherit;
 }
 
-.card {
-	height: vh;
-}
+@media screen and (max-width: 768px) {
+      /* Hide content on screens up to 768px wide */
+      .hide-on-small {
+        display: none;

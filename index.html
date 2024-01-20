@@ -3,7 +3,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit">
 
 	<!-- Bootstrap Link -->
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous"/>
@@ -18,194 +18,235 @@
 
 </head>
 
-<body style="font-family: 'Titillium Web', sans-serif;">
+<body style="font-family: 'Titillium Web', sans-serif;" class="p-0">
+	<section>
+		<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+			<a class="navbar-brand" href="#">Grace Pagnausan</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="#About-Me">About Me</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#projects">Projects</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#tools">Tools</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#contact">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
 
-	<nav class="navbar navbar-expand-lg navbar-dark fixed-top px-3">
-		<a class="navbar-brand" href="#">Grace Pagnausan</a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-		<div class="collapse navbar-collapse" id="navbarNav">
-			<ul class="navbar-nav ml-auto">
-				<li class="nav-item active">
-					<a class="nav-link" href="#">About Me</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#projects">Projects</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#tools">Tools</a>
-				</li>
-			</ul>
-		</div>
-	</nav>
-<!-- SIDEBAR -->
-	<div id="bg-img" class="container-fluid text-center pt-5">
+		<div id="bg-img"class="container-fluid text-center min-vh-100">
 
-			<div class="col-xl-10 pb-2">
+			<div class="row">
 
-				<div class="container-fluid min-vh-100 p-3 p-md-5">
+				<div class="col-xl-12">
 
-					<img class="mt-5 mt-md-0 rounded-circle" src="./images/gm.jpg" width="220" height="220">
+				<img class="py-3 mt-5 rounded-circle" src="./images/me1.jpg" width="250">
 
 					<h2>Grace Pagnausan</h1>
 						<h1><strong>Full-Stack Developer</strong></h3>
 
-							<div class="row m-3">
-								<div class="offset-md-2 col-md-8">
-									<p class="text-center">
+							<div class="d-flex flex-fluid-row px-3">
+								<div class="text-container col-12 hide-on-small">
+									<p>
 										Embark on a journey of innovation and seamless digital solutions with me as your full-stack developer. I bring a unique blend of creative vision and technical expertise, serving as your digital architect to craft web applications that exceed expectations. Versatility is my forte, effortlessly navigating through frameworks and databases to deliver intuitive user experiences. Constantly evolving with industry trends, I thrive on challenges, turning obstacles into opportunities for innovation. Partner with me for a dedicated, dynamic, and forward-thinking approach to shaping the digital experiences of tomorrow. Let's not just meet standards – let's set new benchmarks together, elevating your project to new heights.
 									</p>
-								</div>
-							</div>
-
-						</div>      
-					</div>
-
-		</div>	            
-	</div>  				
-					<section id="projects">
-						<div class="text-light min-vh-50 p-3" style="background-color: #27726a;">
-
-							<h1 class="mt-4 mb-1" >Projects</h1>
-
-
-							<div class="d-lg-flex justify-content-center p-md-5 mt-0">
-
-								<!-- HTML Card Start -->
-								<div class="card col-3 m-3" style="background-color: #27aa9d">
-									<div class="card-body">
-										<img width="200" height="200" src="./images/webpage.jpg" class="card-img-top" alt="...">
-										<h5 class="card-title mt-3">Web-page Designing</h5>
-										<h6 class="card-subtitle mb-2 text-dark">Front-End Programming</h6>
-										<p class="card-text">
-											Web Design focuses on creating user-friendly website layouts, while Front-End Programming implements these designs using HTML, CSS, and JavaScript for a seamless user experience.
-										</p>
-										<a href="#" class="card-link">Link To Project</a>
-									</div>
-								</div>
-
-								<div class="card col-3 m-3" style="background-color: #27aa9d">
-									<div class="card-body">
-										<img width="200" height="200" src="./images/ecom.jpg" class="card-img-top" alt="...">
-										<h5 class="card-title mt-3">E-Commerce</h5>
-										<h6 class="card-subtitle mb-2 text-dark">Back-End Programming</h6>
-										<p class="card-text">
-											E-Commerce involves online transactions, and Back-End Programming powers e-commerce platforms by managing server-side functionalities like inventory and order processing.
-										</p>
-										<a href="#" class="card-link">Link To Project</a>
-									</div>
-								</div>
-
-								<div class="card col-3 m-3" style="background-color: #27aa9d">
-									<div class="card-body">
-										<img width="200" height="200" src="./images/api1.jpg" class="card-img-top" alt="...">
-										<h5 class="card-title mt-3">E-Commerce API</h5>
-										<h6 class="card-subtitle mb-2 text-dark">Full-Stack</h6>
-										<p class="card-text">
-											E-Commerce API enables software integration with online stores, while Full-Stack development involves expertise in both front-end and back-end technologies, providing end-to-end solutions for e-commerce.
-										</p>
-										<a href="#" class="card-link">Link To Project</a>
-									</div>
-								</div>
-
-								<div class="card col-3 m-3" style="background-color: #27aa9d">
-									<div class="card-body">
-										<img width="200" height="200" src="./images/graphic.jpg" class="card-img-top" alt="...">
-										<h5 class="card-title mt-3">Graphic Design</h5>
-										<h6 class="card-subtitle mb-2 text-dark">Advertising and Marketing</h6>
-										<p class="card-text">
-											Creating visual content to convey messages and promote products or services. I collaborate with marketing teams to design impactful visuals, including advertisements, social media graphics, and branding elements.
-										</p>
-										<a href="#" class="card-link">Link To Project</a>
-									</div>
-								</div>
-
-							</div>
-
-						</div>
-					</section>
-
-					<section id="tools" class="container min-vh-50">
-						<h1 class="text-center text-dark mt-3">Core Tools</h1>
-
-						<div id="core-tools"  class="d-flex flex-column">
-							<div id="html" class="d-flex justify-content-center">
-								<img width="150" src="./images/logo-html5.png"/>
-							</div>
-							<div id="css-js" class="d-flex justify-content-center">
-								<img width="150" src="./images/logo-css3.png"/>
-								<img width="150" src="./images/logo-javascript.png"/>
-							</div>
-						</div>
-
-						<h1 class="text-center text-dark mt-3">Other Tools</h1>
-
-						<div id="other-tools" class="d-flex flex-md-column align-items-md-center">
-							<div id="tools-1" class="d-md-flex justify-content-center">
-								<img width="150" src="./images/logo-mongodb.png"/>
-								<img width="150" src="./images/logo-nodejs.png" />
-								<img width="150" src="./images/logo-expressjs.png" />
-								<img width="150" src="./images/logo-react.png" />
-								<img width="150" src="./images/logo-heroku.png" />
-							</div>
-							<div id="tools-2" class="d-md-flex justify-content-center">
-								<img width="150" src="./images/logo-git.png"/>
-								<img width="150" src="./images/logo-sublime-text-3.png" />
-								<img width="150" src="./images/logo-postman.png "/>
-								<img width="150" src="./images/logo-gitlab-ci-cd.png" />
-							</div>
-						</div>
-					</section>
-		
-					<section id="contact">
-						<div class="container-fluid p-5" style="background-color: #27726a;" id="contact-section">
-
-							<h2 class="text-light">Contact Me</h2>
-
-							<div class="row mt-3 justify-content-center">
-								<div class="col-12 col-md-8 col-xl-4" id="form-col">
-									<form class="p-3 rounded" style="background-color: #27aa9d">
-										<div class="form-group">
-											<label class="text-light" for="name">Name</label>
-											<input type="text" class="form-control" id="name" placeholder="Your Name">
-										</div>
-										<div class="form-group">
-											<label class="text-light" for="email">Email address</label>
-											<input type="email" class="form-control" id="email" placeholder="name@example.com">
-										</div>
-										<div class="form-group">
-											<label class="text-light" for="contact">Contact Number</label>
-											<input type="text" class="form-control" id="contact" placeholder="+63 900 000 0000">
-										</div>
-										<div class="form-group">
-											<label class="text-light" for="concern">Concern</label>
-											<select class="form-control" id="concern">
-												<option>Quotation</option>
-												<option class="text-dark">Appointment</option>
-												<option class="text-dark">Follow-Up</option>
-											</select>
-										</div>
-										<div class="form-group">
-											<label class="text-dark" for="message">Message</label>
-											<textarea class="form-control" id="message" rows="4"></textarea>
-										</div>
-										<button type="button" class="btn btn-light" data-toggle="modal" data-target="#modalDiv">Send Email</button>
-									</form>
 								</div>	
 							</div>
-						</div>
-					</section>
-					<div class="footer container-fluid p-2 mt-4">
-						<div class="row flex-fluid-raw justify-content-center">
-							<div class="mx-2">&copy 2024</div>
-							<div class="mx-1">|</div>
-							<div class="mx-2">All Rights Reserved</div>
-						</div>
+
+				</div>  
+			</div>
+	</section>
+
+	<section id="About-Me" style="background-color:#bd9774">
+		<div class="container-fluid min-vh-100">
+			<div class=" d-lg-flex justify-content-center row">
+				<div class="col-xl-4 d-none d-xl-block p-0">
+					<img class="d-flex row" src="./images/grace.png" width="400">
+				</div>
+				<div class="col-xl-8 pt-5 mt-2 text-center">
+					<h2><strong>About Me</strong></h2>
+
+					<div class="p-3 mx-auto"></div>
+					<p><em>Hello! My name is Grace and I am thrilled to offer my expertise in providing top-notch services. I have a decade of comprehensive experience as a freelance virtual assistant across diverse industries.</em></p> 
+
+					<div class="p-2 mx-auto">
+					<p><em>During my tenure as a freelance virtual assistant, I collaborated with clients spanning the eCommerce, real estate, plumbing and HVAC, electrical, and HR industries. This exposure allowed me to cultivate a deep understanding of varied business landscapes, enabling me to adapt swiftly to unique organizational needs. Within these roles, I spearheaded social media marketing strategies, managed projects from inception to completion, engaged in graphic design initiatives, and conducted meticulous data entry and research. These experiences honed my ability to navigate multifaceted tasks and consistently deliver high-quality results in fast-paced environments.</em></p>
+
+					<div class="p-2 mx-auto"></div>
+					<p><em>Now, I am ready to venture out and showcase what I can do in line with full-stack development. My recently expanded knowledge and experience will bring you the best service.</em></p>
 					</div>
 				</div>
+			</div>
+		</div>
+	</section>
+					
+	<section id="projects" class="container-fluid text-center p-auto">
 
-		 
+                    <h1 class="text-dark font-weight-bolder pt-5">Projects</h1>
+
+                    <!-- Other Projects Container Start -->
+                    <div class="d-lg-flex justify-content-center p-md-5">
+
+                        <!-- HTML Card Start -->
+                        <div style="background-color:#27726a" class="card col-xl-4 mb-5 mb-xl-0">
+                            <div class="card-body">
+                                <img height="200" src="./images/webdesign.jpg" class="card-img-top" alt="...">
+                                <h5 class="card-title mt-3">Web-page Designing</h5>
+                                <h6 class="text-dark font-weight-bolder card-subtitle mb-2">Front-End Programming</h6>
+                                <p class="card-text">
+                                    Web Design focuses on creating user-friendly website layouts, while Front-End Programming implements these designs using HTML, CSS, and JavaScript for a seamless user experience.
+                                </p>
+                                <a href="#" class="card-link">Link To Project</a>
+                            </div>
+                        </div>
+                        <!-- HTML Card End -->
+
+                        <!-- Bootstrap Card Start -->
+                        <div style="background-color:#27726a" class="card col-xl-4 mb-5 mb-xl-0 mr-xl-5 ml-xl-5">
+                            <div class="card-body">
+                                <img height="200" src="./images/ecom.jpg" class="card-img-top" alt="...">
+                                <h5 class="card-title mt-3">E-Commerce</h5>
+                                <h6 class="card-subtitle font-weight-bolder text-dark mb-2"> Back-End Programming</h6>
+                                <p class="card-text">
+                                    E-Commerce involves online transactions, and Back-End Programming powers e-commerce platforms by managing server-side functionalities like inventory and order processing.
+                                </p>
+                                <a href="#" class="card-link">Link To Project</a>
+                            </div>
+                        </div>
+                        <!-- Bootstrap Card End -->
+
+                        <!-- Node JS Server Card Start -->
+                        <div style="background-color:#27726a" class="card col-xl-4 mb-5 mb-xl-0">
+                            <div class="card-body">
+                                <img height="200" src="./images/api.jpg" class="card-img-top" alt="...">
+                                <h5 class="card-title mt-3">E-Commerce API</h5>
+                                <h6 class="card-subtitle font-weight-bolder text-dark mb-2">Full-Stack</h6>
+                                <p class="card-text">
+                                    E-Commerce API enables software integration with online stores, while Full-Stack development involves expertise in both front-end and back-end technologies, providing end-to-end solutions for e-commerce.
+                                </p>
+                                <a href="#" class="card-link">Link To Project</a>
+                            </div>
+                        </div>
+                        <!-- Node JS Server Card End -->
+
+                    </div>
+                    <!-- Other Projects Container End -->
+	</section>				
+
+
+	<section id="tools" class="container min-vh-80 py-3">
+			<h1 class="text-center text-dark mt-3">Core Tools</h1>
+
+		<div id="core-tools"  class="d-flex flex-md-column align-items-md-center">
+			<div id="html" class="d-flex justify-content-center">
+				<img width="150" src="./images/logo-html5.png"/>
+				<img width="150" src="./images/logo-css3.png"/>
+				<img width="150" src="./images/bs.png"/>
+				<img width="150" src="./images/logo-javascript.png"/>
+			</div>
+		</div>
+
+		<h1 class="text-center text-dark mt-3 py-3">Other Tools</h1>
+
+		<div id="other-tools" class="d-flex flex-md-column align-items-md-center">
+			<div id="tools-1" class="d-md-flex justify-content-center">
+				<img width="150" src="./images/logo-mongodb.png"/>
+				<img width="150" src="./images/logo-nodejs.png" />
+				<img width="150" src="./images/logo-expressjs.png" />
+				<img width="150" src="./images/logo-react.png" />
+				<img width="150" src="./images/logo-heroku.png" />
+				<img width="150" src="./images/logo-git.png"/>
+				<img width="150" src="./images/logo-sublime-text-3.png" />
+				<img width="150" src="./images/logo-postman.png "/>
+				<img width="150" src="./images/logo-gitlab-ci-cd.png" />
+
+			</div>	
+		</div>
+	</section>
+		
+	<section id="contact">
+	<div class="container-fluid pt-2" style="background-color: #27726a;" id="contact-section">
+
+			<h1 class="text-light text-center py-3">Contact Me</h1>
+
+			<div class="row mt-3 justify-content-center">
+				<div class="col-md-6 col-xl-4 px-2 mt-4 float-left" id="form-col">
+					<form class="p-3 rounded" style="background-color: #bd9774">
+						<div class="form-group">
+							<label class="text-light" for="name">Name</label>
+							<input type="text" class="form-control" id="name" placeholder="Your Name">
+						</div>
+						<div class="form-group">
+							<label class="text-light" for="email">Email address</label>
+							<input type="email" class="form-control" id="email" placeholder="name@example.com">
+						</div>
+						<div class="form-group">
+							<label class="text-light" for="contact">Contact Number</label>
+							<input type="text" class="form-control" id="contact" placeholder="+63 900 000 0000">
+						</div>
+						<div class="form-group">
+							<label class="text-light" for="concern">Concern</label>
+							<select class="form-control" id="concern">
+								<option>Quotation</option>
+								<option class="text-dark">Appointment</option>
+								<option class="text-dark">Follow-Up</option>
+							</select>
+						</div>
+						<div class="form-group">
+							<label class="text-dark" for="message">Message</label>
+							<textarea class="form-control" id="message" rows="4"></textarea>
+						</div>
+						<button type="button" class="btn btn-light" data-toggle="modal" data-target="#modalDiv">Send Email</button>
+					</form>
+				</div>	
+			
+
+			    <div class="col-md-6 col-xl-4 px-2 m-4 hide-on-small">
+			      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15447.368309447163!2d120.9872126!3d14.5510219!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397cbdf7dba6b55%3A0x20a3c896a2fc6c69!2sWorld%20Trade%20Center%20Metro%20Manila!5e0!3m2!1sen!2sph!4v1705741127544!5m2!1sen!2sph" 
+			      width="600" 
+			      height="250" 
+			      style="border:0;" 
+			      allowfullscreen="" 
+			      loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+			      </iframe>
+
+			      <div class="font-italic py-2 my-2">
+			      	<p>Office Location:</p>
+			      	<p>123 Ad Jesum Main St, City of New York, Province of Davao, Philippines 9000</p>
+			      	<p>Contact Number: +639480000000</p>
+			      	<p>Connect With Us:</p>
+			      
+			      	<a href="https://www.facebook.com/"target="_blank">
+			      	<img class="rounded-circle" width="50" src="./images/fb.png"> 
+			      	</a>
+			      	<a href="https://www.linkedin.com/"target="_blank">	
+			      	<img class="rounded-circle" width="50" src="./images/linkedin.png">
+			      	</a>
+
+			      </div>
+			    </div>
+			</div>
+		</div>
+	</section>
+	<div style="background-color: #27726a" class="footer container-fluid p-0">
+		<div class="row flex-fluid-raw justify-content-center">
+			<div class="mx-2 my-2">&copy 2024</div>
+			<div class="mx-1 my-2">|</div>
+			<div class="mx-2 my-2">All Rights Reserved</div>
+		</div>
+	</div>
+
+
+ 
 
 		<div class="modal fade" id="modalDiv" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
 			<div class="modal-dialog">
@@ -227,7 +268,7 @@
 
 		</div>
 
-		<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
-	</body>
-	</html>
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+</body>
+</html>
